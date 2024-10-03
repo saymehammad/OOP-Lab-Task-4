@@ -1,0 +1,10 @@
+class Book:
+    def __init__(self, title: str, author: str, publication_year: int):
+        """Constructor to initialize the title, author, and publication year of the book."""
+        self.title = title
+        self.author = author
+        self.publication_year = publication_year
+
+    def __str__(self):
+        """Returns a string representation of the book."""
+        return f"Title: {self.title}, Author: {self.author}, Publication Year: {self.publication_year}"
